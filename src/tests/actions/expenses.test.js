@@ -12,7 +12,6 @@ import {
 } from '../../actions/expenses';
 import expenses from '../fixtures/expenses';
 import database from '../../firebase/firebase';
-import { start } from 'repl';
 
 const uid = 'thisismytestuid';
 const defaultAuthState = { auth: { uid } };

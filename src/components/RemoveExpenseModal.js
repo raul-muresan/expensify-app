@@ -10,7 +10,7 @@ const RemoveExpenseModal = (props) => (
         className="modal"
     >
         <h3 className="modal__title">
-            Are you shure you want to remove the expense?
+            Are you sure you want to remove the expense?
         </h3>
         <button className="button button--modal" onClick={props.onRemove}>
             Yes
